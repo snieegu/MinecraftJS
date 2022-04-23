@@ -66,4 +66,7 @@ player.onChat("castle2", function () {
     builder.turn(LEFT_TURN)
     builder.move(LEFT, 12)
     builder.raiseWall(WATER, 1)
+    builder.mark()
+    builder.move(RIGHT, 2)
+    builder.raiseWall(PLANKS_OAK, 1)
 })
